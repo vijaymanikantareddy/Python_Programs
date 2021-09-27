@@ -1,15 +1,6 @@
 s=input('enter a string: ')
-l=flag=0
-r=len(s)-1
-while l<r:
-    if s[l] != s[r]:
-        flag=0
-        break
-    else:
-        flag+=1
-        l+=1
-        r-=1
-if flag==0:
-    print('String is not Palindrome')
+a = s[::-1]
+if s==a:
+    print('string is palindrome')
 else:
-    print('String is Palindrome')
+    print('string is not palindrome')
