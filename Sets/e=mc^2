@@ -1,0 +1,6 @@
+mass=int(input('enter mass: '))
+c = 3*108
+e = mass * c * c
+print('mass is',mass,'kg')
+print('speed of light is 3*108 m/s')
+print('equivalent energy is',e,'joules')
