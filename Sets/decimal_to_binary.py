@@ -5,4 +5,7 @@ def fun(num):
 
 n=int(input('enter a number: '))
 print('number in binary form is: ',end='')
-fun(n)
+if n == 0:
+    print(0)
+else:
+    fun(n)
