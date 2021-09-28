@@ -7,3 +7,7 @@ while True:
     if num==0:
         break
 print(rev)
+
+
+#2nd method
+print(str(num)[::-1])
