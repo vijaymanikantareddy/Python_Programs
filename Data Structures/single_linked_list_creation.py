@@ -29,3 +29,5 @@ while val != -1:
         temp.next = n
         n.next = None
     val = int(input('enter data or -1 to stop: '))
+print('The list is : ', end = '')
+L.display()
