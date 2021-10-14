@@ -19,15 +19,14 @@ L = SLL()
 val = int(input('enter data or -1 to stop: '))
 while val != -1:
     newnode = node(val)
+    newnode.next = None
     if L.head == None:
         L.head = newnode
-        newnode.next = None
     else:
         temp = L.head
         while temp.next != None:
             temp = temp.next
         temp.next = newnode
-        newnode.next = None
     val = int(input('enter data or -1 to stop: '))
 print('The list is : ', end = '')
 L.display()
