@@ -21,7 +21,7 @@ class DoublyLinkedList:
             self.tail = new_node
             self.length += 1
 
-    def prepend(self,data):
+    def insert_beg(self,data):
         new_node = Node(data)
         new_node.next = self.head
         self.head.prev = new_node
@@ -81,10 +81,11 @@ class DoublyLinkedList:
             
         
 d = DoublyLinkedList()
-d.append(10)
-d.append(5)
-d.append(6)
-d.prepend(1)
+val = int(input('enter data or -1 to stop: '))
+while val != -1:
+    d.append(val)
+    val = int(input('enter data or -1 to stop: '))
+d.insert_beg(int(input('enter data to insert at beginning: ')))
 d.insert(2,22)
 d.remove(3)
 d.display()
