@@ -10,6 +10,7 @@ for F grade enter f
 *** Ignore PPSC Lab grade***
 '''
 
+roll_number = input('enter your roll number: ')
 m = 0
 for i in range(7):
     g = input('enter grade: ')
