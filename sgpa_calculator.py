@@ -27,7 +27,7 @@ for i in range(7):
     elif g == 'e':
         n = 5
     else:
-        pass
+        n = 0
     if i==0 or i==1 or i==3 or i==4 or i==6:
         m = m + n*3
     elif i==2 or i==5:
