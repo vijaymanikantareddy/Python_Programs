@@ -35,3 +35,5 @@ for i in range(7):
         
 credits = m/19.5
 print('GPA is', credits)
+print((m+13.5)/19.5) #if ppsc lab is A
+print((m+15)/19.5)  #if ppsc lab is A+
