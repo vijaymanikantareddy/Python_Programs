@@ -33,5 +33,5 @@ for i in range(7):
     elif i==2 or i==5:
         m = m + n*1.5
         
-credits = m/18
+credits = m/19.5
 print('GPA is', credits)
